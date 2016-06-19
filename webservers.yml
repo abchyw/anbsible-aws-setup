@@ -1,0 +1,8 @@
+---
+# file: webservers.yml
+- hosts: tag_role_webservers
+  sudo: yes
+  remote_user: ec2-user
+  roles:
+    - common
+    - webserver

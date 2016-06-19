@@ -1,0 +1,8 @@
+---
+
+#- name: ensure java is installed
+
+- name: ensure tomcat is installed
+  yum:
+    name: "{{ tomcat_package_name }}"
+    state: installed

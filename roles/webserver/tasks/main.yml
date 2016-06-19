@@ -1,0 +1,6 @@
+---
+# file: roles/webserver/tasks/main.yml
+
+- include: nginx.yml
+
+
